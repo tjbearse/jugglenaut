@@ -12,6 +12,6 @@ public class TimeTemplatizer : MonoBehaviour {
 	void Update() {
 		var time = this.scoring.timeElapsed;
 		var t = this.GetComponent<Text>();
-		t.text = String.Format("Passes: {0:F1}", time);
+		t.text = String.Format("Time: {0:F1}", time);
 	}
 }
